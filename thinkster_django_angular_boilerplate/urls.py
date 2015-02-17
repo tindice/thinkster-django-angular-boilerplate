@@ -1,12 +1,6 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import patterns, url, include
 
 from thinkster_django_angular_boilerplate.views import IndexView
-
-# urlpatterns = patterns(
-#     '',
-#
-#     url('^.*$', IndexView.as_view(), name='index'),
-# )
 
 from rest_framework_nested import routers
 
